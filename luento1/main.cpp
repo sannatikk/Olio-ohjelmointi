@@ -2,6 +2,7 @@
 // iostream on pääkirjasto
 #include <iostream>
 
+// tällä kirjastolla voi käyttää time-funktiota
 #include <ctime>
 
 // otetaan käyttöön standardi namespace
