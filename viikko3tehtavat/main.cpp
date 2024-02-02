@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     Chef chef_G("Gordon Ramsay");
-    ItalianChef chef_A("Anthony Bourdain", 100, 250);
+    ItalianChef chef_A("Super Mario", 100, 250);
 
     chef_G.makeSalad();
     chef_A.makeSalad();
