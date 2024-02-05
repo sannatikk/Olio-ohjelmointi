@@ -2,16 +2,12 @@
 #include <iostream>
 using namespace std;
 
-Kerrostalo::Kerrostalo(int hinta)
+Kerrostalo::Kerrostalo()
 {
     cout << "Määritellään koko kerrostalon kaikki asunnot" << endl;
     eka.maaritaAsunnot();
     toka.maaritaAsunnot();
     kolmas.maaritaAsunnot();
-
-    double kulutus = laskeKulutus(hinta);
-
-    cout << "Koko kerrostalon kulutus: " << kulutus << endl;
 }
 
 Kerrostalo::~Kerrostalo() {}

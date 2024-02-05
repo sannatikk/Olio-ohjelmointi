@@ -5,7 +5,7 @@
 class Kerrostalo
 {
 public:
-    Kerrostalo(int);
+    Kerrostalo();
     ~Kerrostalo();
 
     Katutaso eka;
