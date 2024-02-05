@@ -36,7 +36,7 @@ double Katutaso::laskeKulutus(double hinta)
 
     int kulutusYhteensa = katutasonKulutus + kerroksenKulutus;
 
-    // cout << "Katutason ja kerroksen kulutus yhteensä: " << kulutusYhteensa << endl;
+    // cout << "Katutason ja perityn kerroksen kulutus yhteensä: " << kulutusYhteensa << endl;
 
     return kulutusYhteensa;
 

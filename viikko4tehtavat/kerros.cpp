@@ -5,7 +5,6 @@ using namespace std;
 Kerros::Kerros()
 {
     cout << "Kerros luotu" << endl;
-    // maaritaAsunnot();
 }
 
 Kerros::~Kerros()

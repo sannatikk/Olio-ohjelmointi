@@ -8,11 +8,13 @@ public:
     Katutaso();
     ~Katutaso();
 
+    void maaritaAsunnot(void) override;
+    double laskeKulutus(double);
+
+private:
     Asunto as1;
     Asunto as2;
 
-    void maaritaAsunnot(void) override;
-    double laskeKulutus(double);
 };
 
 #endif // KATUTASO_H
