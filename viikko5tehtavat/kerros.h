@@ -6,16 +6,16 @@ class Kerros
 {
 public:
     Kerros();
-    ~Kerros();
+    virtual ~Kerros();  // lisätään virtual-sana tähän koska käytetään virtuallisua funktioita
 
     virtual void maaritaAsunnot(void);
     virtual double laskeKulutus(double);
 
 private:
-    Asunto as1;
-    Asunto as2;
-    Asunto as3;
-    Asunto as4;
+    Asunto *as1;
+    Asunto *as2;
+    Asunto *as3;
+    Asunto *as4;
 
 };
 

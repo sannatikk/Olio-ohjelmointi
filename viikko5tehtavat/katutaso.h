@@ -6,14 +6,14 @@ class Katutaso: public Kerros
 {
 public:
     Katutaso();
-    ~Katutaso();
+    virtual ~Katutaso();
 
     void maaritaAsunnot(void) override;
     double laskeKulutus(double) override;
 
 private:
-    Asunto as1;
-    Asunto as2;
+    Asunto *as1;
+    Asunto *as2;
 
 };
 
