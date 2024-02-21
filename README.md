@@ -1,2 +1,2 @@
 # Olio-ohjelmointi
-OAMK Olio-ohjelmoinnin kurssin kotitehtävät / OAMK OOP course homework
+OAMK 1. vuoden Olio-ohjelmoinnin kurssin kotitehtävät & luentomuistiinpanot / OAMK OOP course homework & lecture notes
