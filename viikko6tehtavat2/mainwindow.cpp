@@ -138,7 +138,16 @@ void MainWindow::on_btnEnter_clicked()
         result = num1/num2;
     }
 
-    QString res = QString::number(result, 'f', 3);
+    QString res;
+
+    if (result-(int)result == 0) {
+        res = QString::number(result, 'f', 0);
+
+    }
+    else {
+        res = QString::number(result, 'f', 2);
+    }
+
     ui->txtResult->setText(res);
 }
 
